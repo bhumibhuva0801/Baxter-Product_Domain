@@ -1,0 +1,93 @@
+{
+    "metaInfo": {
+        "dataIndex": "entityModel",
+        "collectionName": "entityModels",
+        "responseObjectName": "response"
+    },
+    "entityModels": [{
+    "id": "hrc_rcaseofhrc_case_rolldown_graphProcessModel",
+    "name": "hrc_rcaseofhrc_case_rolldown",
+    "type": "graphProcessModel",
+    "domain": "generic",
+    "properties": {
+        "defaultValueSource": "internal",
+        "defaultValueLocale": "en-US",
+        "graphProcessPath": "hrc_rcaseofhrc_case",
+        "matchRules": [
+            {
+                "seq": 1,
+                "matchType": "relationshipBased",
+                "relationshipName": "rcaseofhrc",
+                "matchRulesOperator": "or",
+                "noMatchResult": [
+                    {
+                        "actions": [
+                            {
+                                "actionName": "DoNothing"
+                            }
+                        ]
+                    }
+                ],
+                "singleMatchResult": [
+                    {
+                        "actions": [
+                            {
+                                "actionName": "CopyData"
+                            }
+                        ]
+                    }
+                ],
+                "multiMatchResult": [
+                    {
+                        "actions": [
+                            {
+                                "actionName": "CopyData"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "createdService": "entityManageModelService",
+        "createdBy": "baxterpim.admin@riversand.com_user",
+        "modifiedService": "entityManageModelService",
+        "modifiedBy": "baxterpim.admin@riversand.com_user",
+        "createdDate": "2020-10-09T06:54:37.395-0500",
+        "modifiedDate": "2020-10-09T06:54:37.395-0500"
+    },
+    "data": {
+        "attributes": {
+            "itemreferencesequence": {
+                "properties": {
+                    "strategy": "copy"
+                }
+            },
+            "companyprefix": {
+                "properties": {
+                    "strategy": "copy"
+                }
+            },
+            "natdrugcd": {
+                "properties": {
+                    "strategy": "copy"
+                }
+            },
+            "longitmnr": {
+                "properties": {
+                    "strategy": "copy"
+                }
+            },
+            "shrtitmnr": {
+                "properties": {
+                    "strategy": "copy"
+                }
+            },
+            "eachgtin": {
+                "properties": {
+                    "strategy": "copy"
+                }
+            }
+        }
+    }
+}
+    ]}

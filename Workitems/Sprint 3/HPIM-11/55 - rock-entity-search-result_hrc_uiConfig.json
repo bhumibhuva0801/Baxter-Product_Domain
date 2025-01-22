@@ -1,0 +1,148 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "rock-entity-search-result_hrc_uiConfig",
+            "name": "rock-entity-search-result_hrc",
+            "type": "uiConfig",
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "app": "_DEFAULT",
+                            "classification": "_DEFAULT",
+                            "component": "rock-entity-search-result",
+                            "domain": "thing",
+                            "entityType": "hrc",
+                            "relationship": "_DEFAULT",
+                            "role": "_DEFAULT",
+                            "tenant": "_DEFAULT",
+                            "user": "_DEFAULT"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "gridConfig": {
+                                    "itemConfig": {
+                                        "fields": {
+                                            "hrcsource": {
+                                                "filterable": false,
+                                                "visible": true,
+                                                "isMetaDataColumn": false,
+                                                "editable": true,
+                                                "displaySequence": 10,
+                                                "name": "hrcsource",
+                                                "header": "HRC Source System",
+                                                "linkTemplate": "entity-manage?id={id}&type={type}",
+                                                "sortable": true
+                                            },
+                                            "longitmnr": {
+                                                "filterable": false,
+                                                "displaySequence": 20,
+                                                "visible": true,
+                                                "name": "longitmnr",
+                                                "header": "Item Code",
+                                                "linkTemplate": "entity-manage?id={id}&type={type}",
+                                                "sortable": true
+                                            },
+                                            "itmdesc2": {
+                                                "filterable": false,
+                                                "displaySequence": 40,
+                                                "visible": true,
+                                                "name": "itmdesc2",
+                                                "header": "Master Description 2",
+                                                "sortable": true
+                                            },
+                                            "itmdesc1": {
+                                                "filterable": false,
+                                                "displaySequence": 30,
+                                                "visible": true,
+                                                "name": "itmdesc1",
+                                                "header": "Master Description 1",
+                                                "linkTemplate": "entity-manage?id={id}&type={type}",
+                                                "sortable": true
+                                            },
+                                            "thumbnail": {
+                                                "visible": false
+                                            },
+                                            "makbuy": {
+                                                "filterable": false,
+                                                "visible": false,
+                                                "isMetaDataColumn": false,
+                                                "name": "makbuy",
+                                                "header": "Make or Buy",
+                                                "sortable": true
+                                            },
+                                            "uomprimmaster": {
+                                                "filterable": false,
+                                                "visible": false,
+                                                "name": "uomprimmaster",
+                                                "header": "Unit of Measure - Primary - Master",
+                                                "sortable": true
+                                            },
+                                            "itmtyp": {
+                                                "filterable": false,
+                                                "visible": false,
+                                                "isMetaDataColumn": false,
+                                                "name": "itmtyp",
+                                                "header": "Product Type",
+                                                "sortable": true
+                                            },
+                                            "itstktyp": {
+                                                "filterable": false,
+                                                "visible": false,
+                                                "name": "itstktyp",
+                                                "header": "JDE Status ",
+                                                "sortable": true
+                                            },
+                                            "createdon": {
+                                                "filterable": false,
+                                                "visible": true,
+                                                "name": "createdon",
+                                                "header": "Created On",
+                                                "linkTemplate": "entity-manage?id={id}&type={type}",
+                                                "sortable": true
+                                            },
+                                            "stktyp": {
+                                                "filterable": false,
+                                                "visible": false,
+                                                "isMetaDataColumn": false,
+                                                "name": "stktyp",
+                                                "header": "Stocking Type",
+                                                "sortable": true
+                                            },
+                                            "prodgrpname": {
+                                                "filterable": false,
+                                                "visible": false,
+                                                "name": "prodgrpname",
+                                                "header": "Product Group Description",
+                                                "linkTemplate": "entity-manage?id={id}&type={type}",
+                                                "sortable": true
+                                            },
+                                            "name": {
+                                                "visible": false
+                                            },
+                                            "id": {
+                                                "visible": false
+                                            },
+                                            "pimhierarchy": {
+                                                "filterable": false,
+                                                "visible": false,
+                                                "name": "pimhierarchy",
+                                                "header": "PIM hierarchy",
+                                                "sortable": true
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

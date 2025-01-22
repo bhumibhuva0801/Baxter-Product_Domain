@@ -1,0 +1,56 @@
+{
+    "metaInfo": {
+      "dataIndex": "config",
+      "collectionName": "configObjects",
+      "responseObjectName": "response"
+    },
+    "configObjects": [
+{
+    "id": "rock-entity-search-discovery_thingModel_uiConfig",
+    "name": "rock-entity-search-discovery_thingModel",
+    "type": "uiConfig",
+    "properties": {
+        "buildVersion": "1.72.1.1005",
+        "createdService": "configurationManageService",
+        "createdBy": "pompana_goud@baxter.com_user",
+        "modifiedService": "configurationManageService",
+        "modifiedBy": "pompana_goud@baxter.com_user",
+        "createdDate": "2021-11-19T02:22:50.181-0600",
+        "modifiedDate": "2021-11-19T02:22:50.181-0600"
+    },
+    "data": {
+        "contexts": [
+            {
+                "context": {
+                    "app": "_DEFAULT",
+                    "classification": "_DEFAULT",
+                    "component": "rock-entity-search-discovery",
+                    "domain": "thing",
+                    "entityType": "_DEFAULT",
+                    "relationship": "_DEFAULT",
+                    "role": "_DEFAULT",
+                    "tenant": "_DEFAULT",
+                    "user": "_DEFAULT"
+                },
+                "jsonData": {
+                    "config": {
+                        "selectedEntityTypes": [
+                            "productgroup",
+                            "sku",
+                            "skutp",
+                            "sparepart",
+                            "service",
+                            "rawmaterial",
+                            "request",
+                            "compoundingcode",
+                            "mro",
+                            "hrc"
+                        ]
+                    }
+                }
+            }
+        ]
+    }
+}
+    ]
+}

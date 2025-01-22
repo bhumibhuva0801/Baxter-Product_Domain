@@ -1,0 +1,266 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+{
+    "id": "rock-entity-relationship-search-result_hrcpallet_uiConfig",
+    "name": "rock-entity-relationship-search-result_hrcpallet",
+    "type": "uiConfig",
+    "properties": {
+        "createdByService": "system",
+        "lastMigrationTimestamp": "2019-12-01T08:58:13.904+0000",
+        "migrationVersion": 1,
+        "buildVersion": "1.66.2.1025",
+        "createdService": "configurationManageService",
+        "createdBy": "riversand@baxterpim.com_user",
+        "modifiedService": "configurationManageService",
+        "modifiedBy": "riversand@baxterpim.com_user",
+        "createdDate": "2021-03-05T16:06:19.790-0600",
+        "modifiedDate": "2021-03-05T16:06:19.790-0600"
+    },
+    "data": {
+        "contexts": [
+            {
+                "context": {
+                    "app": "_DEFAULT",
+                    "classification": "_DEFAULT",
+                    "component": "rock-entity-relationship-search-result",
+                    "domain": "_DEFAULT",
+                    "entityType": "_DEFAULT",
+                    "relationship": "rpalletofhrc",
+                    "role": "_DEFAULT",
+                    "tenant": "_DEFAULT",
+                    "user": "_DEFAULT"
+                },
+                "jsonData": {
+                    "config": {
+                        "addNewRelationConfig": {
+                            "visible": true
+                        },
+                        "addRelLovConfig": {
+                            "idField": "id",
+                            "titlePattern": "{entity.attributes.mdmid}",
+                            "visible": false
+                        },
+                        "copyActionConfig": {
+                            "visible": false
+                        },
+                        "governDataConfig": {
+                            "visible": false
+                        },
+                        "upDirectionConfig": {
+                            "visible": true,
+                            "gridConfig": {
+                                "viewMode": "Tabular",
+                                "fields": {
+                                    "itmdesc2": {
+                                        "filterable": false,
+                                        "visible": true,
+                                        "displaySequence": 40,
+                                        "name": "itmdesc2",
+                                        "isFromEntityAttribute": true,
+                                        "header": "Master Description 2",
+                                        "editType": "",
+                                        "linkTemplate": "entity-manage?id={id}&type={type}",
+                                        "readOnly": true,
+                                        "sortable": false
+                                    },
+                                    "itmdesc1": {
+                                        "filterable": false,
+                                        "visible": true,
+                                        "displaySequence": 30,
+                                        "name": "itmdesc1",
+                                        "isFromEntityAttribute": true,
+                                        "header": "Master Description 1",
+                                        "editType": "",
+                                        "linkTemplate": "entity-manage?id={id}&type={type}",
+                                        "readOnly": true,
+                                        "sortable": false
+                                    },
+                                    "typeExternalName": {
+                                        "visible": false
+                                    },
+                                    "longitmnr": {
+                                        "filterable": false,
+                                        "visible": true,
+                                        "displaySequence": 20,
+                                        "name": "longitmnr",
+                                        "isFromEntityAttribute": true,
+                                        "header": "Item Code",
+                                        "editType": "",
+                                        "readOnly": true,
+                                        "sortable": false
+                                    },
+                                    "name": {
+                                        "visible": false
+                                    },
+                                    "id": {
+                                        "visible": false
+                                    }
+                                },
+                                "addRelationConfig": {
+                                    "mode": "businessFunction",
+                                    "visible": false
+                                }
+                            },
+                            "businessActions": {
+                                "basic": {
+                                    "visible": false,
+                                    "actions": {
+                                        "create-and-add": {
+                                            "visible": false
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "gridConfig": {
+                            "itemConfig": {
+                                "viewConfig": {
+                                    "tile": {
+                                        "visible": false
+                                    },
+                                    "list": {
+                                        "visible": false
+                                    }
+                                },
+                                "fields": {
+                                    "pkggtin": {
+                                        "filterable": false,
+                                        "visible": false,
+                                        "displaySequence": 10,
+                                        "name": "pkggtin",
+                                        "header": "GTIN",
+                                        "editType": "",
+                                        "readOnly": true,
+                                        "sortable": false,
+                                        "isRelatedEntityAttribute": true
+                                    },
+                                    "typeExternalName": {
+                                        "visible": false
+                                    },
+                                    "stacklimit": {
+                                        "filterable": false,
+                                        "visible": true,
+                                        "displaySequence": 60,
+                                        "name": "stacklimit",
+                                        "header": "Stacking Limit",
+                                        "editType": "",
+                                        "linkTemplate": "entity-manage?id={id}&type={type}",
+                                        "readOnly": true,
+                                        "sortable": true,
+                                        "isRelatedEntityAttribute": true
+                                    },
+                                    "name": {
+                                        "visible": false
+                                    },
+                                    "pkpimid": {
+                                        "filterable": false,
+                                        "visible": true,
+                                        "displaySequence": 20,
+                                        "name": "pkpimid",
+                                        "header": "PIM ID",
+                                        "editType": "",
+                                        "linkTemplate": "entity-manage?id={id}&type={type}",
+                                        "readOnly": true,
+                                        "sortable": true,
+                                        "isRelatedEntityAttribute": true
+                                    },
+                                    "pakfactor": {
+                                        "filterable": false,
+                                        "visible": true,
+                                        "displaySequence": 30,
+                                        "name": "pakfactor",
+                                        "header": "Pack Factor",
+                                        "editType": "",
+                                        "linkTemplate": "entity-manage?id={id}&type={type}",
+                                        "readOnly": true,
+                                        "sortable": true,
+                                        "isRelatedEntityAttribute": true
+                                    },
+                                    "pallettype": {
+                                        "filterable": false,
+                                        "visible": true,
+                                        "displaySequence": 40,
+                                        "name": "pallettype",
+                                        "header": "Pallet Type",
+                                        "editType": "",
+                                        "linkTemplate": "entity-manage?id={id}&type={type}",
+                                        "readOnly": true,
+                                        "sortable": true,
+                                        "isRelatedEntityAttribute": true
+                                    },
+                                    "numberoflayers": {
+                                        "filterable": false,
+                                        "visible": true,
+                                        "displaySequence": 50,
+                                        "name": "numberoflayers",
+                                        "header": "Number of Layers",
+                                        "editType": "",
+                                        "linkTemplate": "entity-manage?id={id}&type={type}",
+                                        "readOnly": true,
+                                        "sortable": true,
+                                        "isRelatedEntityAttribute": true
+                                    },
+                                    "description": {
+                                        "visible": false
+                                    },
+                                    "id": {
+                                        "visible": false
+                                    },
+                                    "order": {
+                                        "visible": false
+                                    }
+                                }
+                            },
+                            "schemaType": "colModel",
+                            "viewMode": "Tabular"
+                        },
+                        "businessActions": {
+                            "basic": {
+                                "visible": true,
+                                "actions": {
+                                    "add": {
+                                        "visible": true,
+                                        "name": "add",
+                                        "icon": "pebble-icon:link",
+                                        "eventName": "relationship-action-add",
+                                        "text": "{[AddTxt]}",
+                                        "intent": "write"
+                                    },
+                                    "copy-ids": {
+                                        "visible": true,
+                                        "delimeter": "\n",
+                                        "name": "copy-ids",
+                                        "icon": "pebble-icon:action-copy",
+                                        "eventName": "relationship-action-copy",
+                                        "text": "{[CopIdBtn]}",
+                                        "attributeField": "id",
+                                        "intent": "read"
+                                    },
+                                    "create-and-add": {
+                                        "visible": true,
+                                        "name": "create-add",
+                                        "icon": "pebble-icon:create-add",
+                                        "eventName": "relationship-action-create",
+                                        "text": "{[AddNewBtn]}",
+                                        "intent": "write"
+                                    }
+                                }
+                            }
+                        },
+                        "addRelationConfig": {
+                            "mode": "businessFunction",
+                            "visible": false
+                        }
+                    }
+                }
+            }
+        ]
+    }
+}
+    ]
+}

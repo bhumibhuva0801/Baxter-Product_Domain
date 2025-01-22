@@ -1,0 +1,41 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+{
+    "id": "rock-entity-create_hrc_uiConfig",
+    "name": "rock-entity-create_hrc",
+    "type": "uiConfig",
+    "data": {
+        "contexts": [
+            {
+                "context": {
+                    "app": "_DEFAULT",
+                    "classification": "_DEFAULT",
+                    "component": "rock-entity-create",
+                    "domain": "_DEFAULT",
+                    "entityType": "hrc",
+                    "relationship": "_DEFAULT",
+                    "role": "_DEFAULT",
+                    "tenant": "_DEFAULT",
+                    "user": "_DEFAULT"
+                },
+                "jsonData": {
+                    "config": {
+                        "properties": {
+                            "attributeNames": [
+                                "longitmnr",
+                                "hrcsource"
+                            ]
+                        }
+                    }
+                }
+            }
+        ]
+    }
+}
+    ]
+}
